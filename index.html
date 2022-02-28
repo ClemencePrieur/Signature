@@ -16,29 +16,31 @@
 
         @font-face {
             font-family: 'mirador_semi_bold';
-            src: url(./fils_de_pomme/mirador_semi_bold_woff2.woff2);
+            src: url(./supports/mirador_semi_bold_woff2.woff2);
         }
 
         h1 {
             font-family: 'mirador_semi_bold';
             text-transform: capitalize;
-            font-size: 15px;
+            font-size: 30px;
+            font-weight: 300;
         }
 
         h2 {
             font-family: 'mirador_semi_bold';
             text-transform: uppercase;
-            font-size: 11px;
+            font-size: 22px;
+            font-weight: 300;
         }
 
         p {
             font-family: 'Courier New', Courier, monospace;
-            font-size: 11.2px;
+            font-size: 22.4px;
         }
 
         a {
             font-family: 'Courier New', Courier, monospace;
-            font-size: 11.2px;
+            font-size: 22.4px;
             text-decoration: underline;
             color: black;
         }
@@ -46,6 +48,8 @@
         .signature {
             display: flex;
             flex-direction: row;
+            margin: 20px;
+            height: 220px;
         }
 
         .signature_logo {
@@ -53,17 +57,17 @@
             justify-content: center;
             align-items: center;
             overflow: hidden;
-            width: 230px;
+            width: 300px;
         }
 
         .signature_logo img {
-            width: 100%;
+            height: 250px;
         }
 
         .signature_separation {
             background-color: black;
-            width: 1.5px;
-            margin: 15px 0px 15px 0px;
+            width: 2.5px;
+            margin: 0;
         }
 
         .signature_texte {
@@ -71,16 +75,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            margin: 10px 20px 10px 20px;
+            margin: 10px 0px 10px 40px;
         }
 
         .signature_texte_coordonnées {
             margin: 10px 0px 10px 0px;
         }
 
+        .signature_texte_icones {
+            margin-top: 20px;
+        }
+
         .signature_texte_icones img {
-            height: 20px;
-            margin: 10px 0px 10px 0px;
+            height: 30px;
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -88,7 +96,7 @@
 <body>
     <div class="signature">
         <div class="signature_logo">
-            <img src="./fils_de_pomme/logo_FDP_bleu.png" alt="logo_fils_de_pomme_bleu_png">
+            <img src="./supports/logo_FDP_bleu.png" alt="logo_fils_de_pomme_bleu_png">
         </div>
 
         <div class="signature_separation"></div>
@@ -104,9 +112,9 @@
                 </p>
             </div>
             <div class="signature_texte_icones">
-                <a href="https://www.instagram.com/filsdepomme/?hl=fr" target="_blank"><img src="./fils_de_pomme/logo_insta_bleu.png"
-                        alt="icone instagram bleu png"></a>
-                <a href="https://www.facebook.com/filsdepomme" target="_blank"><img src="./fils_de_pomme/logo_fb_bleu.png"
+                <a href="https://www.instagram.com/filsdepomme/?hl=fr" target="_blank"><img
+                        src="./supports/logo_insta_bleu.png" alt="icone instagram bleu png"></a>
+                <a href="https://www.facebook.com/filsdepomme" target="_blank"><img src="./supports/logo_fb_bleu.png"
                         alt="icone facebook bleu png"></a>
             </div>
 
