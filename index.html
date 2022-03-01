@@ -12,6 +12,7 @@
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            color: #000035;
         }
 
         @font-face {
@@ -86,7 +87,12 @@
             margin-top: 20px;
         }
 
-        .signature_texte_icones img {
+        .signature_texte_icones_instagram {
+            height: 28px;
+            margin-right: 10px;
+        }
+
+        .signature_texte_icones_facebook {
             height: 30px;
             margin-right: 10px;
         }
@@ -96,7 +102,8 @@
 <body>
     <div class="signature">
         <div class="signature_logo">
-            <img src="https://cdn.jsdelivr.net/gh/ClemencePrieur/Signature/supports/logo_FDP_bleu.png" alt="logo_fils_de_pomme_bleu_png">
+            <img src="https://cdn.jsdelivr.net/gh/ClemencePrieur/Signature/supports/logo_FDP_bleu.png"
+                alt="logo_fils_de_pomme_bleu_png">
         </div>
 
         <div class="signature_separation"></div>
@@ -113,8 +120,12 @@
             </div>
             <div class="signature_texte_icones">
                 <a href="https://www.instagram.com/filsdepomme/?hl=fr" target="_blank"><img
-                        src="https://cdn.jsdelivr.net/gh/ClemencePrieur/Signature/supports/logo_insta_bleu.png" alt="icone instagram bleu png"></a>
-                <a href="https://www.facebook.com/filsdepomme" target="_blank"><img src="https://cdn.jsdelivr.net/gh/ClemencePrieur/Signature/supports/logo_fb_bleu.png"
+                        class="signature_texte_icones_instagram"
+                        src="https://cdn.jsdelivr.net/gh/ClemencePrieur/Signature/supports/logo_insta_bleu.png"
+                        alt="icone instagram bleu png"></a>
+                <a href="https://www.facebook.com/filsdepomme" target="_blank"><img
+                        class="signature_texte_icones_facebook"
+                        src="https://cdn.jsdelivr.net/gh/ClemencePrieur/Signature/supports/logo_fb_bleu.png"
                         alt="icone facebook bleu png"></a>
             </div>
 
